@@ -11594,12 +11594,19 @@ body {
   }
 }
 
-.about-section {
+.education-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
-.about-section p {
+.education-section p {
   margin-bottom: 5rem;
+}
+
+.workexp-section {
+  padding: 10rem 0;
+}
+.workexp-section .featured-text {
+  padding: 2rem;
 }
 
 .projects-section {
@@ -11607,6 +11614,14 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.skills-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.skills-section p {
+  margin-bottom: 5rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
