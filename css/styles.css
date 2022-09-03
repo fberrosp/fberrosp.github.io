@@ -11605,26 +11605,34 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .workexp-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 .workexp-section .featured-text {
   padding: 2rem;
 }
 
 .projects-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 .projects-section .featured-text {
   padding: 2rem;
 }
 
 .skills-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 .skills-section .featured-text {
   padding: 2rem;
