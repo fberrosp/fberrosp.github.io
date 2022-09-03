@@ -11605,14 +11605,14 @@ body {
 }
 
 .about-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .workexp-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -11621,7 +11621,7 @@ body {
 }
 
 .projects-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
@@ -11630,7 +11630,7 @@ body {
 }
 
 .skills-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
