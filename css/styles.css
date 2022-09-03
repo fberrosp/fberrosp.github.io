@@ -43,7 +43,7 @@
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-primary-rgb: 85,85,85;
+  --bs-primary-rgb: 163,170,174;
   --bs-secondary-rgb: 116, 100, 161;
   --bs-success-rgb: 85, 85, 85;
   --bs-info-rgb: 28, 171, 196;
@@ -239,11 +239,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #adb5bd;
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #ced4da;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4055,7 +4055,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #64a19d;
+  color: #6c757d;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4065,7 +4065,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #50817e;
+  color: #adb5bd;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4115,7 +4115,7 @@ textarea.form-control-lg {
   background-color: #64a19d;
 }
 
-.nav-fill > .nav-link,
+.-fill > .nav-link,
 .nav-fill .nav-item {
   flex: 1 1 auto;
   text-align: center;
@@ -11475,13 +11475,13 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #212529;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #212529;
+  border: 1px solid #212529;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11524,26 +11524,26 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #adb5bd;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ced4da;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #6c757d;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #fff;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #fff;
   }
 }
 
@@ -11670,7 +11670,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #ced4da;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11679,7 +11679,7 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #fff;
   border-width: 0.25rem;
   width: 3rem;
 }
