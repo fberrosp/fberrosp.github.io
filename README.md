@@ -25,7 +25,7 @@ process by 85%.
 ## Publications
 -------------------
 September 2022
-: **INTERCON 2022**; IEEE (Lima,Peru)
+: **IEEE**; INTERCON 2022 (Lima,Peru)
 * A. Martinez, F. Berrospi, V. Porras and M. Portocarrero, "Using facial landmarks to detect driver fatigue," 2022 IEEE XXIX International Conference on Electronics, Electrical Engineering and Computing (INTERCON), 2022, pp. 1-4, doi: 10.1109/INTERCON55795.2022.9870046.
 
 ## Education
