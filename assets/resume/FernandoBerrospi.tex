@@ -1,0 +1,215 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Fernando Berrospi} \\ \vspace{1pt}
+    U.S. Green Card holder \\ \vspace{1pt}
+    \small\href{mailto:fberrosp@gmail.com}{\raisebox{-0.2\height}\  fberrosp@gmail.com} ~ 
+    \href{https://www.linkedin.com/in/fberrosp/}{\raisebox{-0.2\height}\ linkedin.com/in/fberrosp}  ~
+    \href{https://fberrosp.github.io}{\raisebox{-0.2\height}\ fberrosp.github.io} ~
+    \href{https://github.com/fberrosp}{\raisebox{-0.2\height}\ github.com/fberrosp}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MS4M}{August 2021 -- Present}
+      {Software Engineer}{Lima, Peru}
+      \resumeItemListStart
+        \resumeItem{Participated in the creation of a machine learning facial landmarks detection model based on the MobileNetV2 architecture for fatigue detection in haul truck drivers in South American mines.}
+        \resumeItem{Collaborated in the overhaul of fatigue detection metrics such as percent eye-closure over a time period (PERCLOS), Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) achieving an improvement in the accuracy of the model from 27.91\% to 87.10\%.}
+        \resumeItem{Constructed an optimization algorithm to identify the model with the best hyper parameters such as the appropriate number of epochs and learning rate to obtain the optimal blink and yawn detection results.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CDC Gold}{January 2020 -- July 2020}
+      {Junior Software Developer}{La Libertad, Peru}
+      \resumeItemListStart
+        \resumeItem{Developed a k-means clustering algorithm to identify haul truck delays in the mining facilities.}
+        \resumeItem{Designed a tracking algorithm to trace routes taken by water tank trucks saving the company over \$3000 per truck, per month.}
+        \resumeItem{Upgraded haul truck scheduling efficiency by automating the process using an R script reducing the time spent on the scheduling process by 87\%.}
+        \resumeItem{Supervised a team to design and implement an innovative irrigation system saving the company over \$5000 per truck, per month.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Ticketing System Web Application} $|$ \emph{Javascript, Firebase, Bootstrap}}{November 2022}
+          \resumeItemListStart
+            \resumeItem{Designed a CRUD web application using Javascript as the frontend and Firebase as a backend as a service.}
+            \resumeItem{Followed Model, View, Controller (MVC) architectural pattern for designing the system infrastructure.}
+            \resumeItem{Developed the system logic using Object Oriented Programming (OOP) for improved scalability and code maintenance.}
+            \resumeItem{Implemented team and role management features for administrators for successful project management capabilities.}
+            \resumeItem{Demo: \href{https://tinyurl.com/y7xu5xdh}{https://tinyurl.com/y7xu5xdh}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      \resumeProjectHeading
+          {\textbf{Formula 1 – Grand Prix Analysis} $|$ \emph{Python, Pandas, Seaborn}}{September 2022}
+          \resumeItemListStart
+            \resumeItem{Developed an Exploratory Data Analysis (EDA) report to determine Formula 1 lap time variations over time.}
+            \resumeItem{Conducted a thorough data cleaning process by classifying missing variables, performing data imputation and encoding categorical data types to numeric using Pandas and Seaborn Python libraries.}
+            \resumeItem{Performed univariate and multivariate analysis to determine relevant variables and spot possible correlations.}
+            \resumeItem{Demo: \href{https://tinyurl.com/ye24ut5y}{https://tinyurl.com/ye24ut5y}}
+            \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{INTERCON 2022} $|$ \emph{IEEE}}{September 2022}
+          \resumeItemListStart
+            \resumeItem{A. Martinez, F. Berrospi, V. Porras and M. Portocarrero, "Using facial landmarks to detect driver fatigue," 2022 IEEE XXIX International Conference on Electronics, Electrical Engineering and Computing (INTERCON), 2022, pp. 1-4, doi: 10.1109/ INTERCON55795.2022.9870046.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{December 2019}
+      {BS in Industrial Engineering}{West Lafayette, IN}
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Javascript, C, MATLAB, R, Java, SQL, Visual Basic for Applications (VBA)} \\
+     \textbf{Tools}{: Git, PostgreSQL, Anaconda, TensorFlow, PyTorch, FastAI, Microsoft Power BI, Microsoft Excel, Bootstrap, HTML, CSS} \\
+     \textbf{Language Skills}{: Spanish (native), English (fluent), French (proficient), Italian (proficient)} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
