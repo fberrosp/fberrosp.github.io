@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+@layer base {
+  body{
+    @apply font-sans bg-light text-dark tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+}
+
+@layer components {
+  .btn-custom {
+    @apply mx-4 items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold  border-2 border-solid border-transparent ;
+  }
+  .btn-custom:hover {
+    @apply bg-light text-dark border-dark dark:bg-dark dark:text-light dark:border-light;
+  }
+}
