@@ -65,7 +65,7 @@ function ContactForm() {
 
 export const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <section id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 pt-16 w-full">
         <h2 className="py-8">Contact</h2>
         <div className="grid lg:grid-cols-5 gap-8">
@@ -131,7 +131,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
