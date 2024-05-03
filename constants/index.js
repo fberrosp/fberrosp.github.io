@@ -1,3 +1,11 @@
+const about = {
+  intro:
+    "I am Fernando Berrospi, a growth-minded Software Engineer who is passionate about all things related to software development, data science and Formula 1.",
+  background:
+    "I graduated from Purdue University in 2019 with a B.S in Industrial Engineering. I currently work as a Software Engineer involved in the creation and the improvement of a facial landmark detection model for fatigue detection on drivers in mining facilities.",
+  callToAction: "I invite you to check out my GitHub for demos of my projects.",
+};
+
 const skills = [
   "JavaScript",
   "Python",
@@ -99,4 +107,4 @@ const projects = [
   },
 ];
 
-export { skills, experiences, projects };
+export { about, skills, experiences, projects };
