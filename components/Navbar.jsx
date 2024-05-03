@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { styles } from "../styles/styles";
+import { styles } from "@/styles/styles";
 import { BsSunFill, BsMoonFill, BsX, BsList } from "react-icons/bs";
 import { useRouter } from "next/router";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -69,10 +69,8 @@ const Navbar = () => {
       style={{
         backgroundColor: navBg,
         opacity: navBg === "transparent" ? 0.9 : 1,
-        paddingX: "10px",
-        paddingY: "20px",
       }}
-      className={`p-6 w-full flex items-center fixed top-0 z-20 ${
+      className={`${styles.padding} w-full flex items-center fixed top-0 z-20 ${
         shadow ? "shadow-lg shadow-gray-400" : ""
       } transition-all duration-500`}
     >
@@ -159,7 +157,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/newWhiteLogo.png"
+                  src="/assets/newWhiteLogo.png"
                   alt="/"
                   width="32"
                   height="51"

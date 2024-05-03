@@ -1,4 +1,5 @@
 import React from "react";
+import { styles } from "@/styles/styles";
 
 export const Main = () => {
   return (
@@ -8,8 +9,8 @@ export const Main = () => {
     >
       <div className="absolute inset-0 bg-gradient-to-b-light dark:bg-gradient-to-b-dark w-full h-full mx-auto p-2 flex justify-center items-center bg-blend-overlay">
         <div>
-          <h1 className="text-white">Fernando Berrospi</h1>
-          <h2 className="my-14 text-white">
+          <h1 className={styles.heroHeadText}>Fernando Berrospi</h1>
+          <h2 className={styles.heroSubText}>
             <small>Software Engineer</small>
           </h2>
         </div>
